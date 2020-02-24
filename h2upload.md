@@ -1,4 +1,4 @@
-How to upload your template (using browser as a client)
+# How to upload your template (using browser as a client)
 
 1. Log in to GitHub
 2. Search or jump to akarki58/rocker_templates
