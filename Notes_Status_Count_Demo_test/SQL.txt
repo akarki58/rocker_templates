@@ -1,9 +1,0 @@
-Database: Odoo
-Headings: Stage; Count
-SQL: 
-  select ns.name, count(*) 
-    from note_note nn
-    join note_stage_rel nsr on nsr.note_id = nn.id
-    join note_stage ns on ns.id = nsr.stage_id 
-    group by ns.name, ns.sequence
-    order by ns.sequence
