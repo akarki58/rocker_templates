@@ -1,4 +1,7 @@
+Description: Odoo Notes status count by stages
+Author: Antti Kärki (antti.rocker.karki@outlook.com)
 Database: Odoo
+Odoo modules required: Notes
 Headings: Stage; Count
 SQL: 
   select ns.name, count(*) 
